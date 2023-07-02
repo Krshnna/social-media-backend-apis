@@ -236,7 +236,7 @@ exports.deleteUser = async (req, res) => {
             await post.save();
         }
 
-        // // // //logout user immediately 
+        //logout user immediately 
         res.cookie("token", null, { expires: new Date(Date.now()), httpOnly: true });
 
         res.status(200).json({

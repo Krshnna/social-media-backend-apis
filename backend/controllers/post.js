@@ -70,7 +70,6 @@ exports.getPost = async (req, res) => {
     }
 }
 
-
 exports.likeunlike = async(req, res) => {
     try {
         const post = await Post.findById(req.params.id);
