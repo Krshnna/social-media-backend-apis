@@ -2,6 +2,8 @@ this is the best for api development for social media app
 
 in this i have made all the api related to social media and if someone is making mern stack project and have no idea about how make backend for socail media website, you can direct take reference from this repository. It will definitely help you out.
 
+We just have to integrate this apis to your frontend.
+
 Functionality in this social media backend api are as follows:
 
 Register a User
